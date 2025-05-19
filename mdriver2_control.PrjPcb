@@ -50,17 +50,17 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\dvarx\src\mdriver2_hw\mcu.SchDoc
+DocumentPath=mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -135,21 +135,21 @@ GenerateClassCluster=0
 DocumentUniqueId=GWPFXLGP
 
 [Document6]
-DocumentPath=..\..\..\..\dvarx\src\tnb_mns_singlecore\tnb_mns_control\ethernet.SchDoc
+DocumentPath=ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QGSUEWYZ
+DocumentUniqueId=CNQGULQG
 
 [Document7]
 DocumentPath=mdriver2_control.BomDoc
@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\..\..\ti\c2000\C2000Ware_5_04_00_00\boards\controlCARDs\TMDSCNCD28388D\Rev.B\MCU062B_Altium\mdriver2_control.PcbDoc
+DocumentPath=..\..\..\..\ti\c2000\C2000Ware_5_04_00_00\boards\controlCARDs\TMDSCNCD28388D\Rev.B\MCU062B_Altium\mdriver2_control.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=vbase
 
 [Preferences]
 PrefsVaultGUID=
@@ -60,7 +61,7 @@ AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -145,7 +146,7 @@ AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -184,6 +185,32 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KKCJGWCC
+
+[ProjectVariant1]
+UniqueId=b88e6d1f-dc43-4c80-af6d-ba2c8a1cfd69
+Description=vbase
+AllowFabrication=0
+ParameterCount=0
+VariationCount=18
+Variation1=Designator=C63|UniqueId=\MTXVJWJR|Kind=1|AlternatePart=
+Variation2=Designator=C66|UniqueId=\QEAWOOOP|Kind=1|AlternatePart=
+Variation3=Designator=C72|UniqueId=\YGSIOYGD|Kind=1|AlternatePart=
+Variation4=Designator=C67|UniqueId=\NMCEXJGC|Kind=1|AlternatePart=
+Variation5=Designator=C73|UniqueId=\YIIRBGAC|Kind=1|AlternatePart=
+Variation6=Designator=C68|UniqueId=\QFQBETRY|Kind=1|AlternatePart=
+Variation7=Designator=C74|UniqueId=\GPSALLWY|Kind=1|AlternatePart=
+Variation8=Designator=C70|UniqueId=\WPBTBDEN|Kind=1|AlternatePart=
+Variation9=Designator=C76|UniqueId=\HKOKPRLL|Kind=1|AlternatePart=
+Variation10=Designator=C71|UniqueId=\CBGISUMM|Kind=1|AlternatePart=
+Variation11=Designator=C78|UniqueId=\DUBSJDIF|Kind=1|AlternatePart=
+Variation12=Designator=C77|UniqueId=\LDUIUMWJ|Kind=1|AlternatePart=
+Variation13=Designator=C79|UniqueId=\EEFTEIZK|Kind=1|AlternatePart=
+Variation14=Designator=C75|UniqueId=\OOWEEZSL|Kind=1|AlternatePart=
+Variation15=Designator=C64|UniqueId=\GLMUSVKT|Kind=1|AlternatePart=
+Variation16=Designator=C65|UniqueId=\WYKEKAAZ|Kind=1|AlternatePart=
+Variation17=Designator=C69|UniqueId=\JIGOGUEN|Kind=1|AlternatePart=
+Variation18=Designator=C80|UniqueId=\UIDZOPWH|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for mdriver2_control\Design Rule Check - mdriver2_control.html

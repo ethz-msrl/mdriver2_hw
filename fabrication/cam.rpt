@@ -1,0 +1,16 @@
+CAMtasticDXP Drill Report
+Serial Number:0000-00-00000
+Drill File: C:\Users\dvarx\src\mdriver2_hw\fabrication\cam.drl
+Format: 2.3
+Units: English (Inch)
+Step & Repeat Codes Used: NO
+
+
+TOOL		SIZE		COUNT
+====		======		=====
+
+ 1 		0.0079		929
+ 2 		0.0300		9
+ 3 		0.1575		6
+ 4 		0.0748		2
+ 5 		0.1102		2

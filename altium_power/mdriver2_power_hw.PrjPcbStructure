@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=top.SchDoc|Designator=legA|SchDesignator=legA|FileName=bridge_leg.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=bridge_leg.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=top.SchDoc|Designator=legB|SchDesignator=legB|FileName=bridge_leg.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=bridge_leg.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,6 @@
+(version 1)
+
+# Clearance for 400V nets to anything else
+(rule HV
+    (condition "A.hasNetclass('HV')")
+    (constraint clearance (min 1.2mm)))

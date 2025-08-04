@@ -1,0 +1,119 @@
+(footprint "weidmuller_20A_2pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3728c795-9b9a-4b3d-b3dd-c38c1d3585c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "weidmuller_20A_2pin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bd1eb96f-ef8e-49af-b07e-edce0997d843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de2a38e6-8b3e-4a25-834c-76c608e88efa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04b7f15a-2dc9-4ab2-b075-d037c6989a3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.5 -6)
+		(end 2.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d72054a5-b74b-4ddc-a9af-4553ea487213")
+	)
+	(fp_rect
+		(start -10.5 -6)
+		(end 2.5 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3de14e50-74a6-46b8-8b03-0ae06d3e2485")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d63e243-d77e-4fdb-98ec-125b213c8de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f103068-3590-4e26-8ca0-601dd8e8f2a1")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f51fefc-dbbd-4ee9-b4a5-8bc5014c38e3")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/dvarx/Downloads/ul_1148030000/1148030000.stp"
+		(offset
+			(xyz -10 6 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

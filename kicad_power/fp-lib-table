@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mdriver")(type "KiCad")(uri "${KIPRJMOD}/mdriver.pretty")(options "")(descr ""))
+)

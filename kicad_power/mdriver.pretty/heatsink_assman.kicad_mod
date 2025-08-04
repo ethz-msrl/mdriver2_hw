@@ -1,0 +1,124 @@
+(footprint "heatsink_assman"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69e962d8-4f6b-4fee-8d07-59ac01ed2fd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "heatsink_assman"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "042f3653-0252-4cee-903a-fb2ada072ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7d6fe11-4945-4145-a98f-77c05f8ad658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab91ded8-d3c8-44ab-8cea-b214d84eb83d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -23.5 -45.5)
+		(end 23.5 45.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9ca25636-02c3-4400-92c3-de0600382930")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5b7745c-fb00-4414-a296-6db87074dfda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -17.8 -40)
+		(size 5 5)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "801beef8-2e7a-40a5-82f9-df6419b6119c")
+	)
+	(pad "1" thru_hole circle
+		(at -17.8 40)
+		(size 5 5)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb0ccf42-c4e5-4d50-85a5-4da19ab65205")
+	)
+	(pad "1" thru_hole circle
+		(at 17.8 -40)
+		(size 5 5)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "742149aa-0b7c-4da4-9d0c-0c303cdac082")
+	)
+	(pad "1" thru_hole circle
+		(at 17.8 40)
+		(size 5 5)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b5e1e68-7884-42a7-a34d-39af241ba73b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/dvarx/Downloads/167605885-19-v5583k/v5583k.stp"
+		(offset
+			(xyz -23 45 33)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 90)
+		)
+	)
+)

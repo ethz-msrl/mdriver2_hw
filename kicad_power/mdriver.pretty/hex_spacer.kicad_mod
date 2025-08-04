@@ -1,0 +1,88 @@
+(footprint "hex_spacer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21a29ae2-3049-4d19-b265-fe0488e954f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "hex_spacer"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b56349e6-c5ba-4c42-85ee-8b1670155ef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26f2301e-a900-4066-9570-99a83192fbae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "824f1156-2f43-4d49-ae4b-3c6c88e767af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f33a6294-e769-4ce2-ad17-0dfbab6e81cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5 5)
+		(drill 3.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "787802b7-c811-4836-b1c0-9464cae69e81")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/dvarx/Downloads/hexagonal-spacers-m3-m-f-hex-5-5-1.snapshot.1/hexagonal_spacer_MF_M3_H30_HEX5.5_FTD10_MTL10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

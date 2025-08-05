@@ -83,8 +83,8 @@
 		(uuid "132a40a6-9679-49ac-99c4-12321650295f")
 	)
 	(fp_line
-		(start -16.5 7.68)
-		(end -16.5 -7.68)
+		(start -16.5 7.18)
+		(end -16.5 -7.18)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -93,8 +93,8 @@
 		(uuid "67aa8e69-90e8-4039-be48-2f456b5ff3c9")
 	)
 	(fp_line
-		(start 16.5 -7.68)
-		(end 16.5 7.68)
+		(start 16.5 -7.18)
+		(end 16.5 7.175102)
 		(stroke
 			(width 0.05)
 			(type default)

@@ -1429,7 +1429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thin Film Resistor ±25ppm/℃ ±0.1% 2kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -1467,7 +1467,7 @@
 		(at 167.64 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1641,7 +1641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res Thick Film 0603 430 Ohm 1% 0.25W(1/4W) ±100ppm/C Pad SMD T/R Automotive AEC-Q200"
 			(at 118.11 101.6 0)
 			(effects
 				(font
@@ -1942,6 +1942,24 @@
 			)
 		)
 		(property "Description" "0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "2N7002E-T1-GE3"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 165.1 85.09 0)
 			(effects
 				(font

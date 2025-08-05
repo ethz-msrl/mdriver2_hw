@@ -1998,10 +1998,20 @@
 		(uuid "dfcc513e-098e-40eb-856b-7d4e92a33a07")
 	)
 	(junction
+		(at 189.23 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e160c3c0-9e9e-423e-b25e-74f908ed4a71")
+	)
+	(junction
 		(at 78.74 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf45247-f5a7-42d5-b105-99e00783fa9f")
+	)
+	(no_connect
+		(at 181.61 139.7)
+		(uuid "7952417a-e43d-44e7-a603-13b614546a90")
 	)
 	(wire
 		(pts
@@ -2035,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 142.24) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9b80ba-4f0a-40c9-b342-8c0f463d9186")
+	)
+	(wire
+		(pts
 			(xy 78.74 149.86) (xy 78.74 154.94)
 		)
 		(stroke
@@ -2052,6 +2072,16 @@
 			(type default)
 		)
 		(uuid "129ff4ae-2f8c-45c3-b81d-c3d246913059")
+	)
+	(wire
+		(pts
+			(xy 181.61 142.24) (xy 181.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fbfd5d-21a4-4f06-b326-0ca327fdbc2b")
 	)
 	(wire
 		(pts
@@ -2092,16 +2122,6 @@
 			(type default)
 		)
 		(uuid "341949f0-c8a4-46cb-b061-7764bd48a5ae")
-	)
-	(wire
-		(pts
-			(xy 181.61 139.7) (xy 181.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347c5608-5a8f-4cad-af13-7c40b0440363")
 	)
 	(wire
 		(pts
@@ -2395,6 +2415,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 139.7) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee31756-f84d-4166-9cd0-7b2f7ce38f4a")
+	)
+	(wire
+		(pts
 			(xy 156.21 127) (xy 156.21 113.03)
 		)
 		(stroke
@@ -2465,13 +2495,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 189.23 143.51)
+			(xy 189.23 143.51) (xy 189.23 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae0c3216-2fed-4b8d-8f29-a93c27b1e88f")
+		(uuid "adc1398f-d97b-44bd-a8e1-fc4a3caf7c10")
 	)
 	(wire
 		(pts
@@ -3118,7 +3148,7 @@
 		(at 212.09 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3413,7 +3443,7 @@
 		(at 59.69 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3531,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic Capacitor, Multilayer, Ceramic, 25V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0603"
 			(at 181.61 147.32 0)
 			(effects
 				(font
@@ -3540,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partno" "CC0603KRX7R7BB104"
+		(property "Partno" "C0603C105K3RACTU"
 			(at 181.61 147.32 0)
 			(effects
 				(font
@@ -3644,7 +3674,7 @@
 		(at 212.09 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3717,7 +3747,7 @@
 		(at 212.09 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3922,7 +3952,7 @@
 		(at 212.09 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4137,7 +4167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "63mW Thick Film Resistors 75V ±1% ±100ppm/℃ 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -4184,7 +4214,7 @@
 		(at 212.09 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4421,7 +4451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafc8db2-47b5-4ca6-86a7-5413839233cb")
-		(property "Reference" "U2"
+		(property "Reference" "J3"
 			(at 185.42 109.22 0)
 			(effects
 				(font
@@ -4446,7 +4476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octopart.com/datasheet/634008149821-wurth+elektronik-52676018"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -4455,7 +4485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Modular Jack WR-MJ, Tab Up, Shielded, Horizontal Entry, SMT, 8P8C"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -4515,7 +4545,7 @@
 		(instances
 			(project ""
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1"
-					(reference "U2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4701,7 @@
 		(at 187.96 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4814,7 +4844,7 @@
 		(at 212.09 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

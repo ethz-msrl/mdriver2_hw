@@ -1734,28 +1734,46 @@
 		)
 	)
 	(junction
+		(at 124.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06df4a1b-3ea1-49ff-a456-6d0a1fdb9b0b")
+	)
+	(junction
+		(at 92.71 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19036a2a-f705-455b-b5ce-b0681cfb227d")
+	)
+	(junction
 		(at 209.55 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f5835e6-1725-4110-8a9c-7dcc96308ec8")
 	)
 	(junction
-		(at 81.28 114.3)
+		(at 85.09 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bbd2804-7d6c-4360-816f-812fbbf3417b")
+	)
+	(junction
+		(at 72.39 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fc95528-cef7-422a-8983-dc3795ef7967")
 	)
 	(junction
-		(at 81.28 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "594e2b76-ab10-4748-bc13-a0d13be253d1")
-	)
-	(junction
 		(at 124.46 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a86f8bc-bfba-404b-8b76-fb2b687f6013")
+		(uuid "4bade913-06c3-461b-bfa0-918ba615549f")
+	)
+	(junction
+		(at 72.39 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594e2b76-ab10-4748-bc13-a0d13be253d1")
 	)
 	(junction
 		(at 92.71 100.33)
@@ -1776,13 +1794,13 @@
 		(uuid "9dd22fec-2819-44af-8a4f-1af277bca850")
 	)
 	(junction
-		(at 60.96 97.79)
+		(at 52.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa622dce-caed-4fa5-ad80-2543599ec96e")
 	)
 	(junction
-		(at 69.85 87.63)
+		(at 60.96 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0476db8-a497-43f0-9f63-723981c4f00d")
@@ -1794,16 +1812,32 @@
 		(uuid "c4c3efb9-1da8-4d28-abd9-0ae336da50c1")
 	)
 	(junction
-		(at 69.85 114.3)
+		(at 60.96 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbea2226-70af-4126-9df3-179765825b3e")
+	)
+	(junction
+		(at 179.07 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e490d311-6c7d-4eec-ba1a-1588c81dbc5b")
 	)
 	(junction
 		(at 209.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66aa286-2077-44e1-805d-1e22fd4949b8")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bc71a7-8784-439a-ae22-d3d210733db0")
 	)
 	(wire
 		(pts
@@ -1817,23 +1851,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 87.63) (xy 69.85 87.63)
+			(xy 46.99 87.63) (xy 60.96 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ae95dd1-a4f9-40ab-bb83-c8fc0f7674d0")
-	)
-	(wire
-		(pts
-			(xy 124.46 99.06) (xy 119.38 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb113d3-4c0e-41b9-8d6a-325d681a1e91")
 	)
 	(wire
 		(pts
@@ -1847,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 90.17) (xy 96.52 90.17)
+			(xy 72.39 90.17) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 114.3) (xy 69.85 114.3)
+			(xy 52.07 114.3) (xy 60.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 96.52 87.63)
+			(xy 60.96 87.63) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1947,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 114.3) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4431363e-61cd-4c3e-8c1d-10d99159244d")
+	)
+	(wire
+		(pts
 			(xy 118.11 100.33) (xy 124.46 100.33)
 		)
 		(stroke
@@ -1957,7 +1991,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 93.98 92.71)
+			(xy 132.08 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d36135-297e-43e3-b301-370e9dab8f66")
+	)
+	(wire
+		(pts
+			(xy 96.52 92.71) (xy 92.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2031,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 69.85 100.33)
+			(xy 119.38 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a772db0-fd47-410e-932d-dc6283be26b1")
+	)
+	(wire
+		(pts
+			(xy 60.96 87.63) (xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2061,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 114.3) (xy 69.85 114.3)
+			(xy 85.09 107.95) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b967b5-8bd9-448d-8874-3062a6f175e1")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 60.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 90.17) (xy 81.28 100.33)
+			(xy 72.39 90.17) (xy 72.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2077,23 +2141,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 97.79) (xy 60.96 97.79)
+			(xy 46.99 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "886e929d-8055-427e-abe0-dfccf28b5b9a")
-	)
-	(wire
-		(pts
-			(xy 124.46 100.33) (xy 129.54 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896b63c8-120c-44a6-b675-37dcc8f62e27")
 	)
 	(wire
 		(pts
@@ -2107,6 +2161,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 100.33) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ede10ba-0448-4520-92a6-11af0d30b193")
+	)
+	(wire
+		(pts
 			(xy 118.11 105.41) (xy 119.38 105.41)
 		)
 		(stroke
@@ -2114,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "9257bddd-ea0c-4a63-8d92-6a95e40ef354")
+	)
+	(wire
+		(pts
+			(xy 85.09 92.71) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927793ce-15ce-4628-a23a-044453552380")
 	)
 	(wire
 		(pts
@@ -2157,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 81.28 114.3)
+			(xy 92.71 114.3) (xy 85.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 60.96 114.3)
+			(xy 52.07 107.95) (xy 52.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 96.52 97.79)
+			(xy 52.07 97.79) (xy 96.52 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 179.07 109.22)
+			(xy 179.07 96.52) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2214,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "aeb3ef21-f949-4df7-abae-b0f3aa0fc46e")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25b14c1-225e-4824-ad9d-235beecdb210")
 	)
 	(wire
 		(pts
@@ -2257,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 107.95) (xy 69.85 114.3)
+			(xy 60.96 107.95) (xy 60.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 81.28 90.17)
+			(xy 46.99 90.17) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 93.98 92.71)
+			(xy 92.71 82.55) (xy 92.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 81.28 114.3)
+			(xy 72.39 107.95) (xy 72.39 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 60.96 100.33)
+			(xy 52.07 97.79) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2397,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 95.25) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f431a4a8-b682-49cf-811d-955d27f47746")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 124.46 87.63)
 		)
 		(stroke
@@ -2407,7 +2501,7 @@
 	)
 	(hierarchical_label "CHL"
 		(shape input)
-		(at 55.88 90.17 180)
+		(at 46.99 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2418,7 +2512,7 @@
 	)
 	(hierarchical_label "CHH"
 		(shape input)
-		(at 55.88 87.63 180)
+		(at 46.99 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2534,7 @@
 	)
 	(hierarchical_label "DIS"
 		(shape input)
-		(at 55.88 97.79 180)
+		(at 46.99 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,7 +2705,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 104.14 0)
+		(at 52.07 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2619,7 +2713,7 @@
 		(dnp no)
 		(uuid "0b601970-e37c-44e9-86b5-fd8a6389dca5")
 		(property "Reference" "C6"
-			(at 61.214 101.854 0)
+			(at 52.324 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2722,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 61.214 106.426 0)
+			(at 52.324 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2731,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 61.9252 107.95 0)
+			(at 53.0352 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2749,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10%"
-			(at 60.96 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2758,7 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
-			(at 60.96 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2787,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 104.14 0)
+		(at 60.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2701,7 +2795,7 @@
 		(dnp no)
 		(uuid "0f2b8548-aab1-4b6b-801a-9733b79ff77c")
 		(property "Reference" "C7"
-			(at 70.104 101.854 0)
+			(at 61.214 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2804,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 70.104 106.426 0)
+			(at 61.214 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2813,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 70.8152 107.95 0)
+			(at 61.9252 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 104.14 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2831,7 @@
 			)
 		)
 		(property "Description" "0402 100 pF 50 V ±5% Tolerance C0G/NP0 SMT Multilayer Ceramic Chip Capacitor"
-			(at 69.85 104.14 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2840,7 @@
 			)
 		)
 		(property "Partno" "VJ0402A101JXACW1BC"
-			(at 69.85 104.14 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2869,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 93.98 82.55 0)
+		(at 92.71 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2784,7 +2878,7 @@
 		(fields_autoplaced yes)
 		(uuid "1045b68d-66db-4d8b-9f67-0324af3dac6c")
 		(property "Reference" "#PWR010"
-			(at 93.98 86.36 0)
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2887,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 93.98 77.47 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 82.55 0)
+			(at 92.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 92.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 82.55 0)
+			(at 92.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,16 +3107,15 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 129.54 100.33 0)
+		(at 132.08 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d098bcd-7e3b-4358-9140-4533f7b8a130")
 		(property "Reference" "#PWR029"
-			(at 129.54 104.14 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3124,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 129.54 95.25 0)
+			(at 132.08 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 100.33 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 100.33 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 129.54 100.33 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3168,7 @@
 					(unit 1)
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
-					(reference "#PWR030")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3126,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic Capacitor, Multilayer, Ceramic, 25V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0603"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -3165,7 +3258,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 104.14 0)
+		(at 72.39 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3173,7 +3266,7 @@
 		(dnp no)
 		(uuid "5487fd41-0c09-4e37-891c-69ac2322b2b8")
 		(property "Reference" "C8"
-			(at 81.534 101.854 0)
+			(at 72.644 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3275,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 81.788 106.426 0)
+			(at 72.898 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.2452 107.95 0)
+			(at 73.3552 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 104.14 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3302,7 @@
 			)
 		)
 		(property "Description" "0402 100 pF 50 V ±5% Tolerance C0G/NP0 SMT Multilayer Ceramic Chip Capacitor"
-			(at 81.28 104.14 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3311,7 @@
 			)
 		)
 		(property "Partno" "VJ0402A101JXACW1BC"
-			(at 81.28 104.14 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -3321,6 +3414,88 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eed8f20-a080-4832-9706-121262ec70b2")
+		(property "Reference" "C26"
+			(at 85.344 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 85.344 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.0552 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10%"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "C0402C104K4RECAUTO "
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d608a95-2182-4c5a-856b-e5fb7568a9b3")
+		)
+		(pin "2"
+			(uuid "cbb8f741-db31-4208-a414-c8c3008ee0f1")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3442,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Rectifier Diode Switching 600V 2A 75ns 2-Pin SMA T/R / DIODE GEN PURP 600V 2A SMA"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -4060,7 +4235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 114.3 0)
+		(at 60.96 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4244,7 @@
 		(fields_autoplaced yes)
 		(uuid "db05ccf6-e6b6-4e4d-8b0b-65093e561c3a")
 		(property "Reference" "#PWR09"
-			(at 69.85 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4253,7 @@
 			)
 		)
 		(property "Value" "ISOGND"
-			(at 69.85 119.38 0)
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 114.3 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 114.3 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 114.3 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic Capacitor, Multilayer, Ceramic, 25V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0603"
 			(at 124.46 109.22 0)
 			(effects
 				(font
@@ -4325,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 157.48 114.3 0)
 			(effects
 				(font

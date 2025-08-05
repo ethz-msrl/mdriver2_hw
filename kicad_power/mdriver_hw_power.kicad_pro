@@ -74,38 +74,6 @@
         [
           "lib_footprint_mismatch|148850000|66350000|33dc4646-a5e7-4493-922e-1527e4bec502|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|159685000|112500000|2e91ba2c-7826-46e6-b753-10e6e9b8b738|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|159685000|129500000|4209a758-da74-4cf7-93a4-453ef5db7d60|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|159685000|63450000|d0ddd715-5290-420b-bc73-e495b0316e39|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|159685000|80550000|203c9ea3-b99d-4396-9012-e5b28b2f46e9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|87000000|108000000|887523fc-f136-46b0-9cfe-23ab9cec84cd|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|87000000|129500000|3feb733a-2147-44ef-bc0e-436c404ad038|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|87000000|59500000|f8074131-3032-4e56-9188-97e96fc97644|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|87000000|81000000|e41eb82a-038b-49be-82cc-5afde92112b6|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -577,6 +545,12 @@
       "Net-(D2-K)": [
         "VH"
       ],
+      "Net-(D3-A)": [
+        "VH"
+      ],
+      "Net-(D4-A)": [
+        "VH"
+      ],
       "Net-(F1-Pad1)": [
         "VH"
       ],
@@ -615,8 +589,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "fabrication/",
+      "pos_files": "fabrication/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -687,7 +661,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -699,7 +673,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

@@ -1,25 +1,27 @@
 (version 1)
 
-# Clearance for 400V nets to anything else
-(rule HV
-    (condition "A.hasNetclass('HV')")
-    (constraint clearance (min 1.2mm)))
+# Clearance for HV nets to anything else
+(rule "HV"
+    (constraint clearance (min 1.5mm))
+    (condition "A.NetClass=='VH' && B.NetClass!='VH'")
+)
+
 #PCBWay Custom DRC for Kicad 7
 
 # ----------------------------------- Minimum trace width and spacing (PICK ONE) --------------------
 
 # 4-layer , 1oz and 0.5oz copper
-#(rule "Minimum Trace Width and Spacing (outer layer)"
-#(constraint track_width (min 0.09mm))
-#(constraint clearance (min 0.09mm))
-#(layer outer)
-#(condition "A.Type == 'track'"))
+(rule "Minimum Trace Width and Spacing (outer layer)"
+(constraint track_width (min 0.09mm))
+(constraint clearance (min 0.09mm))
+(layer outer)
+(condition "A.Type == 'track'"))
 
-#(rule "Minimum Trace Width and Spacing (inner layer)"
-#(constraint track_width (min 0.1mm))
-#(constraint clearance (min 0.09mm))
-#(layer inner)
-#(condition "A.Type == 'track'"))
+(rule "Minimum Trace Width and Spacing (inner layer)"
+(constraint track_width (min 0.1mm))
+(constraint clearance (min 0.09mm))
+(layer inner)
+(condition "A.Type == 'track'"))
 
 # ------------------------------------------------------------------------------------------------------
 
@@ -30,10 +32,10 @@
 # ----------------------------------- Via hole/diameter size (PICK ONE) ------------------------------------
 
 # 4-layer standard
-#(rule "Minimum Via Diameter and Hole Size"
-#(constraint hole_size (min 0.3mm))
-#(constraint via_diameter (min 0.45mm))
-#(condition "A.Type == 'via'"))
+(rule "Minimum Via Diameter and Hole Size"
+(constraint hole_size (min 0.3mm))
+(constraint via_diameter (min 0.45mm))
+(condition "A.Type == 'via'"))
 
 
 # ----------------------------------- Drill/hole size ------------------------------------
@@ -113,6 +115,6 @@
 (layer "?.Silkscreen"))
 
 (rule "Pad to Silkscreen"
-(constraint silk_clearance (min 0.15mm))
+(constraint silk_clearance (min 0.08mm))
 (layer outer)
 (condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))

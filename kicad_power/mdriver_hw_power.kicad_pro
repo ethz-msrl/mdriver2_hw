@@ -74,6 +74,34 @@
         [
           "lib_footprint_mismatch|148850000|66350000|33dc4646-a5e7-4493-922e-1527e4bec502|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "text_thickness|104250000|122000000|f470afa9-850c-48c6-bf23-da401dec35f9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|153056546|101124636|c3553d3b-a317-40f7-9f03-158cc78115a2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|83200000|60500000|6f23cf50-72b0-4924-8fa7-e62e9dd67d10|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|86500000|108000000|0eab63e8-0c23-4f75-928b-b9078ac901ed|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|86500000|129500000|47b9ccae-dfa4-462e-8d32-f56bf0701022|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|86500000|81000000|ccfce3e6-e8ab-4376-96c1-8d17994eb389|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|96900000|51000000|46bdf682-e6c5-499b-bd74-622d56b5a5d9|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -505,7 +533,7 @@
       },
       {
         "name": "VH",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 246, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -515,6 +543,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/isense/HGND": [
+        "VH"
+      ],
       "/isense/in+": [
         "VH"
       ],
@@ -551,7 +582,22 @@
       "Net-(D4-A)": [
         "VH"
       ],
+      "Net-(D4-K)": [
+        "VH"
+      ],
+      "Net-(D5-A)": [
+        "VH"
+      ],
+      "Net-(D5-K)": [
+        "VH"
+      ],
       "Net-(F1-Pad1)": [
+        "VH"
+      ],
+      "Net-(FB1-Pad2)": [
+        "VH"
+      ],
+      "Net-(FB2-Pad2)": [
         "VH"
       ],
       "Net-(Q1-G)": [
@@ -563,7 +609,25 @@
       "Net-(Q3-G)": [
         "VH"
       ],
+      "Net-(U1-OUTA)": [
+        "VH"
+      ],
+      "Net-(U2-OUTA)": [
+        "VH"
+      ],
+      "Net-(U3-DCDC_OUT)": [
+        "VH"
+      ],
       "Net-(U3-GNDA)": [
+        "VH"
+      ],
+      "Net-(U3-HLDO_OUT)": [
+        "VH"
+      ],
+      "Net-(U3-INN)": [
+        "VH"
+      ],
+      "Net-(U3-INP)": [
         "VH"
       ],
       "Net-(U3-OUTA)": [
@@ -572,13 +636,31 @@
       "Net-(U3-VDDA)": [
         "VH"
       ],
+      "Net-(U4-DCDC_OUT)": [
+        "VH"
+      ],
       "Net-(U4-GNDA)": [
+        "VH"
+      ],
+      "Net-(U4-HLDO_OUT)": [
+        "VH"
+      ],
+      "Net-(U4-INN)": [
+        "VH"
+      ],
+      "Net-(U4-INP)": [
         "VH"
       ],
       "Net-(U4-OUTA)": [
         "VH"
       ],
       "Net-(U4-VDDA)": [
+        "VH"
+      ],
+      "unconnected-(U3-NC-Pad4)": [
+        "VH"
+      ],
+      "unconnected-(U4-NC-Pad4)": [
         "VH"
       ]
     },
@@ -667,7 +749,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

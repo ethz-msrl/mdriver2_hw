@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Current sensing")
-		(date "2025-08-06")
+		(date "2025-08-07")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2777,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor, 1 F, 10%, X5R, 16 V, 0402 [1005 Metric] Rohs Compliant: Yes"
+		(property "Description" "Multilayer Ceramic Capacitor, 1uF, 10%, X5R, 16 V, 0402 [1005 Metric] Rohs Compliant: Yes"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor, 1 F, 10%, X5R, 16 V, 0402 [1005 Metric] Rohs Compliant: Yes"
+		(property "Description" "Multilayer Ceramic Capacitor, 1uF, 10%, X5R, 16 V, 0402 [1005 Metric] Rohs Compliant: Yes"
 			(at 125.73 86.36 0)
 			(effects
 				(font

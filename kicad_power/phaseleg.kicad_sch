@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Half bridge leg")
-		(date "2025-08-06")
+		(date "2025-08-07")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1886,6 +1886,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "2EDB8259Y\n- UVLO of 8V\n- 14-SOP package"
+		(exclude_from_sim no)
+		(at 109.728 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "535c582b-b6cb-411a-bd46-2cab2a123300")
 	)
 	(text "Shoot-through Protection (STP) and Dead-Time Control (DTC) \nIf STP/DTC is high or left open, OUTA and OUTB can overlap (SPT and DTC disabled) \nIf STP/DTC is connected to GNDI with a resistance RDTC, OUTA and OUTB cannot overlap and a \"safe dead-time\" can be configured: tdt [ns] = 10 x RDTC [kΩ] \nIf STP/DTC is connected to GNDI, OUTA and OUTB cannot overlap (STP only enabled) "
 		(exclude_from_sim no)
@@ -4715,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2EDB8259Y"
 			(at 130.175 82.55 0)
 			(effects
 				(font

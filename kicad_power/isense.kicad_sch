@@ -3354,7 +3354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mdriver:PAMC3302DWER"
+		(property "Footprint" "mdriver:AMC3302DWER"
 			(at 181.61 85.09 0)
 			(effects
 				(font
@@ -3381,7 +3381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partno" "AMC3302"
+		(property "Partno" "AMC3302DWER"
 			(at 181.61 85.09 0)
 			(effects
 				(font

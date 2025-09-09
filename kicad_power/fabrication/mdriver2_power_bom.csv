@@ -22,5 +22,5 @@
 "R22","1","CRGP0402F47K ","TE Connectivity CRGP0402F47K Res Thick Film 0402 47K Ohm 1% 0.125W(1/8W) ±100ppm/°C Pad SMD T/R Automotive AEC-Q200","Resistor_SMD:R_0402_1005Metric"
 "R23,R24,R25","3","ERJ-PA3F4300V","Res Thick Film 0603 430 Ohm 1% 0.25W(1/4W) ±100ppm/C Pad SMD T/R Automotive AEC-Q200","Resistor_SMD:R_0603_1608Metric"
 "U1,U2","2","2EDB8259YXUMA1","Fast, robust, dual-channel, functional isolated MOSFET gate drivers with accurate and stable timing.","mdriver:SOIC-16"
-"U3","1","AMC3302","±50-mV input, precision current sensing reinforced isolated amplifier with integrated DC/DC","mdriver:PAMC3302DWER"
+"U3","1","AMC3302DWER","±50-mV input, precision current sensing reinforced isolated amplifier with integrated DC/DC","mdriver:AMC3302DWER"
 "U4","1","SFH617A-1X007T","Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4","Package_DIP:SMDIP-4_W9.53mm_Clearance8mm"

@@ -7,6 +7,7 @@
 	(title_block
 		(title "Current sensing")
 		(date "2025-08-07")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2102,6 +2103,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25563"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "410c751c-6ba7-47df-b3fa-8bcb6467c3ef")
 		)
@@ -2172,6 +2182,15 @@
 			)
 		)
 		(property "Partno" "CL05B102KB5NNNC"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1523"
 			(at 151.13 102.87 0)
 			(effects
 				(font
@@ -2259,6 +2278,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C7038862"
+			(at 80.01 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36c3f6d7-fa79-440e-b18a-f5c9ff059512")
 		)
@@ -2329,6 +2357,15 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
+			(at 157.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
 			(at 157.48 102.87 0)
 			(effects
 				(font
@@ -2482,6 +2519,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C7038862"
+			(at 80.01 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0b9aacb-488c-4850-94f7-882ea6689d85")
 		)
@@ -2552,6 +2598,15 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
+			(at 212.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
 			(at 212.09 105.41 0)
 			(effects
 				(font
@@ -2638,6 +2693,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c77afa26-0973-42a0-8b00-23897626475b")
 		)
@@ -2708,6 +2772,15 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -2787,6 +2860,15 @@
 			)
 		)
 		(property "Partno" "0402YD105KAT2A"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14445"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -2936,6 +3018,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C4109"
+			(at 93.98 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a827016f-2278-4e26-bdce-8dd6bb02e754")
 		)
@@ -3004,6 +3095,15 @@
 			)
 		)
 		(property "Partno" "RC0402JR-0710RL"
+			(at 93.98 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C4109"
 			(at 93.98 96.52 90)
 			(effects
 				(font
@@ -3091,6 +3191,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C7038862"
+			(at 80.01 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac2d559a-bba0-42fc-8d6f-18974ac04f02")
 		)
@@ -3161,6 +3270,15 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
 			(at 203.2 105.41 0)
 			(effects
 				(font
@@ -3313,6 +3431,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C108931"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4633f50a-fb47-4f18-a6b4-5008c7f6094f")
 		)
@@ -3382,6 +3509,15 @@
 			)
 		)
 		(property "Partno" "AMC3302DWER"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C4990160"
 			(at 181.61 85.09 0)
 			(effects
 				(font
@@ -3502,6 +3638,15 @@
 			)
 		)
 		(property "Partno" "0402YD105KAT2A"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14445"
 			(at 125.73 86.36 0)
 			(effects
 				(font

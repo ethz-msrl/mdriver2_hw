@@ -7,8 +7,148 @@
 	(title_block
 		(title "Cooling Fan Control")
 		(date "2025-08-07")
+		(rev "1.1")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -1265,6 +1405,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 82.55) (xy 182.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef7781e-3836-4017-b044-ccebbdbeacfd")
+	)
+	(wire
+		(pts
+			(xy 173.99 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32db2705-dcff-4fba-ad5c-9dac9d913969")
+	)
+	(wire
+		(pts
 			(xy 166.37 80.01) (xy 167.64 80.01)
 		)
 		(stroke
@@ -1282,6 +1442,16 @@
 			(type default)
 		)
 		(uuid "43cf03d2-625d-4542-8ee5-5080853d1561")
+	)
+	(wire
+		(pts
+			(xy 173.99 95.25) (xy 173.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5928dfc6-d4fa-4ad9-bd51-b1892fe13cc0")
 	)
 	(wire
 		(pts
@@ -1362,6 +1532,16 @@
 			(type default)
 		)
 		(uuid "95609a8b-af95-4ebd-a367-8d1d7e04f0c9")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 173.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cea492-4e2d-4151-a926-35773c34cd22")
 	)
 	(wire
 		(pts
@@ -1565,6 +1745,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C23170"
+			(at 165.1 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9f28f90-c81e-4689-a4fc-3d812acd9b8e")
 		)
@@ -1627,6 +1816,24 @@
 			)
 		)
 		(property "Description" "Fan"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "-"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -1711,6 +1918,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C23170"
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e2e5c24-00f7-4328-8045-023b762154f5")
 		)
@@ -1782,6 +1998,15 @@
 			)
 		)
 		(property "Partno" "SFH617A-1X007T"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -1872,6 +2097,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C124210"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6adf4924-b7c0-4d08-b814-2646b478a82c")
 		)
@@ -1882,6 +2116,93 @@
 			(project "mdriver_hw_power"
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/92cb4394-a405-4920-b688-0d74a92f3960"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d56adab-1573-45d4-ba23-b78273c2e002")
+		(property "Reference" "C34"
+			(at 169.672 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 174.498 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 174.9552 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/datasheet/cga3e1x7s1c225k080ae-tdk-68305583"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Ceramic 2.2uF 16V X7S 10% Pad SMD 0603 Soft Termination 125C Automotive T/R"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "CGA3E1X7S1C225K080AE"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "CL10A225KA8NNNC"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75292a2c-5b3a-400f-8f62-dd472e0fbd55")
+		)
+		(pin "2"
+			(uuid "b7b546f8-ca3b-499e-af05-f409789e13d9")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/92cb4394-a405-4920-b688-0d74a92f3960"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2007,6 +2328,15 @@
 			)
 		)
 		(property "Partno" "ERJ-PA3F4300V"
+			(at 166.37 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23170"
 			(at 166.37 96.52 90)
 			(effects
 				(font
@@ -2221,6 +2551,15 @@
 			)
 		)
 		(property "Partno" " Nexperia BC817-25,235"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2137"
 			(at 180.34 125.73 0)
 			(effects
 				(font

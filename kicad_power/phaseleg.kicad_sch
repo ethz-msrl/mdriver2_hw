@@ -7,6 +7,7 @@
 	(title_block
 		(title "Half bridge leg")
 		(date "2025-08-07")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1928,6 +1929,12 @@
 		(uuid "06df4a1b-3ea1-49ff-a456-6d0a1fdb9b0b")
 	)
 	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bfae6c4-1fbd-4fc2-8817-686ff422cedf")
+	)
+	(junction
 		(at 115.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,12 +1951,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f5835e6-1725-4110-8a9c-7dcc96308ec8")
-	)
-	(junction
-		(at 93.98 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bbd2804-7d6c-4360-816f-812fbbf3417b")
 	)
 	(junction
 		(at 81.28 114.3)
@@ -1976,6 +1977,12 @@
 		(uuid "3d0d50fa-0ea4-46f9-85f0-d58c391eba80")
 	)
 	(junction
+		(at 90.17 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e39151f-7cb0-4d6f-a388-6309516ed4be")
+	)
+	(junction
 		(at 147.32 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1986,6 +1993,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "594e2b76-ab10-4748-bc13-a0d13be253d1")
+	)
+	(junction
+		(at 113.03 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d30228-5b29-4815-8349-8b0c21db21e2")
 	)
 	(junction
 		(at 106.68 114.3)
@@ -2024,6 +2037,12 @@
 		(uuid "9dd22fec-2819-44af-8a4f-1af277bca850")
 	)
 	(junction
+		(at 99.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4712906-9671-414b-97e0-62bab9c2c31c")
+	)
+	(junction
 		(at 60.96 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2034,12 +2053,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0476db8-a497-43f0-9f63-723981c4f00d")
-	)
-	(junction
-		(at 115.57 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4c3efb9-1da8-4d28-abd9-0ae336da50c1")
 	)
 	(junction
 		(at 69.85 114.3)
@@ -2064,6 +2077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f71e190f-39f0-4acc-99bd-efd3e1d521f3")
+	)
+	(junction
+		(at 142.24 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f94c6d29-be2b-40db-b7db-3b4250612e96")
 	)
 	(wire
 		(pts
@@ -2137,16 +2156,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 93.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162337db-0497-47e6-b642-dd9dc91b46b0")
-	)
-	(wire
-		(pts
 			(xy 166.37 81.28) (xy 163.83 81.28)
 		)
 		(stroke
@@ -2197,6 +2206,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 92.71) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d658f-0541-40e6-997a-8d0b454c129d")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bf390f-1ed1-4afd-8d89-429849c48680")
+	)
+	(wire
+		(pts
 			(xy 201.93 125.73) (xy 201.93 127)
 		)
 		(stroke
@@ -2234,6 +2263,16 @@
 			(type default)
 		)
 		(uuid "273acaf4-6f41-497c-97e1-da953e467d7c")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29166011-e90c-4f6d-88d5-151c39280d65")
 	)
 	(wire
 		(pts
@@ -2337,16 +2376,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 105.41) (xy 115.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b365b1-373c-4935-ba2b-c8cd1bb4efc6")
-	)
-	(wire
-		(pts
 			(xy 144.78 74.93) (xy 147.32 74.93)
 		)
 		(stroke
@@ -2364,16 +2393,6 @@
 			(type default)
 		)
 		(uuid "3e73c2df-6703-4237-8bd9-fa8a38a5d4e0")
-	)
-	(wire
-		(pts
-			(xy 93.98 114.3) (xy 81.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4431363e-61cd-4c3e-8c1d-10d99159244d")
 	)
 	(wire
 		(pts
@@ -2427,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 107.95) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc2818e-7cde-4dd9-ab57-7b96b5af1601")
+	)
+	(wire
+		(pts
 			(xy 193.04 114.3) (xy 194.31 114.3)
 		)
 		(stroke
@@ -2457,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 107.95) (xy 93.98 114.3)
+			(xy 90.17 107.95) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2504,6 +2533,16 @@
 			(type default)
 		)
 		(uuid "6f5edb17-94c4-4479-8265-7a946e55bc70")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9f6aea-f88a-4cc4-9ad9-9d5573ee870e")
 	)
 	(wire
 		(pts
@@ -2597,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 93.98 92.71)
+			(xy 90.17 100.33) (xy 90.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 115.57 92.71)
+			(xy 90.17 92.71) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2644,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "96a9bc24-c502-4fbf-a8a8-fefbdeecda35")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9727c160-61f3-4820-ab6b-265cc30b3f10")
 	)
 	(wire
 		(pts
@@ -2737,6 +2786,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af60f106-9911-4194-84fa-7552086bc0bb")
+	)
+	(wire
+		(pts
 			(xy 201.93 99.06) (xy 201.93 109.22)
 		)
 		(stroke
@@ -2744,16 +2803,6 @@
 			(type default)
 		)
 		(uuid "b25b14c1-225e-4824-ad9d-235beecdb210")
-	)
-	(wire
-		(pts
-			(xy 115.57 105.41) (xy 115.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4012992-7c9c-4759-a35c-626686e7f06c")
 	)
 	(wire
 		(pts
@@ -2774,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "b618904d-3e8c-40cf-a080-e207d4b3e1ef")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b927c952-774f-4158-b588-48b25fd39ce7")
 	)
 	(wire
 		(pts
@@ -2847,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb11d4c6-830e-4921-9642-acff59c44f6d")
+	)
+	(wire
+		(pts
 			(xy 163.83 102.87) (xy 140.97 102.87)
 		)
 		(stroke
@@ -2917,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 115.57 105.41)
+			(xy 115.57 95.25) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2954,6 +3023,16 @@
 			(type default)
 		)
 		(uuid "ea4ae682-32eb-4af6-9b23-62a5b8c2eddb")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee516595-f8ee-43cd-82a8-eeff9ffa8af2")
 	)
 	(wire
 		(pts
@@ -3262,6 +3341,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 60.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcb59c9f-c32a-457f-ac89-61b25de05b76")
 		)
@@ -3336,6 +3424,15 @@
 			)
 		)
 		(property "Partno" "VJ0402A101JXACW1BC"
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C26409"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -3498,6 +3595,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "-"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d6b4c5b8-d4ab-4512-8683-86ce051bad9e")
 		)
@@ -3538,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "18"
 			(at 140.97 71.12 90)
 			(effects
 				(font
@@ -3546,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 140.97 76.708 90)
 			(effects
 				(font
@@ -3555,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/crgp1206f18r-te+connectivity-91018856"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -3564,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Res Thick Film 0402 10 Ohm 5% 0.063W(1/16W) ±200ppm/C Pad SMD T/R"
+		(property "Description" "Res Thick Film 1206 18 Ohm 1% 0.5W(1/2W) ±100ppm/C Pad SMD Automotive T/R"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -3573,7 +3679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partno" "RC0402JR-0710RL"
+		(property "Partno" "CRGP1206F18R"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -3734,6 +3840,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15785"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "315cbfab-4e98-4efa-b613-9290beea65da")
 		)
@@ -3748,86 +3863,6 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22dc6bbd-f45b-4e90-8e2d-25dc11d84f4b")
-		(property "Reference" "R6"
-			(at 173.99 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3"
-			(at 173.99 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 173.99 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Partno" "CRCW06033R30FKEA"
-			(at 173.99 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce96e450-ba31-4aa7-aa01-a95811b90841")
-		)
-		(pin "1"
-			(uuid "96683006-7c88-4565-8579-b18667c6a85c")
-		)
-		(instances
-			(project "mdriver_hw_power"
-				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3888,6 +3923,15 @@
 			)
 		)
 		(property "Partno" "CGA3E1X7S1C225K080AE"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "CL10A225KA8NNNC"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -3978,6 +4022,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C26409"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1249bd1b-29c5-43ad-b683-73c4236f9136")
 		)
@@ -4014,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "12"
 			(at 180.34 78.994 90)
 			(effects
 				(font
@@ -4040,7 +4093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Res Thick Film 0603 12 Ohm 1% 0.25W(1/4W) ±100ppm/C Pad SMD T/R Automotive AEC-Q200"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -4049,7 +4102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partno" "CRCW06033R30FKEA"
+		(property "Partno" "ERJPA3F12R0V"
 			(at 180.34 81.28 90)
 			(effects
 				(font
@@ -4141,6 +4194,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17168"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f62de743-a28d-478a-9e10-b38c465289a5")
 		)
@@ -4162,7 +4224,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 104.14 0)
+		(at 90.17 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4170,7 +4232,7 @@
 		(dnp no)
 		(uuid "6eed8f20-a080-4832-9706-121262ec70b2")
 		(property "Reference" "C11"
-			(at 94.234 101.854 0)
+			(at 90.424 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4241,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 94.234 106.426 0)
+			(at 90.424 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4250,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 94.9452 107.95 0)
+			(at 91.1352 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 104.14 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4268,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10%"
-			(at 93.98 104.14 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4277,16 @@
 			)
 		)
 		(property "Partno" "C0402C104K4RECAUTO "
-			(at 93.98 104.14 0)
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4330,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "0"
 			(at 172.72 71.374 90)
 			(effects
 				(font
@@ -4285,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Zero Ohm Resistor, Jumper, 0603 [1608Metric], Thick Film, 100 mW, 2 A, Surface Mount"
 			(at 172.72 73.66 0)
 			(effects
 				(font
@@ -4294,7 +4365,16 @@
 				(hide yes)
 			)
 		)
-		(property "Partno" "CRCW06033R30FKEA"
+		(property "Partno" "CRCW06030000ZSTB"
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25165"
 			(at 172.72 73.66 90)
 			(effects
 				(font
@@ -4456,6 +4536,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C719809"
+			(at 147.32 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff81043d-b00f-4242-8fc0-247b7bb14c8d")
 		)
@@ -4531,6 +4620,15 @@
 			)
 		)
 		(property "Partno" "885342214001"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -4619,6 +4717,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C124210"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "129a82ab-6175-40d1-b8c4-e7d0884311d6")
 		)
@@ -4633,6 +4740,95 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c441d7f-d739-49a4-8846-47fd9d587d4e")
+		(property "Reference" "R6"
+			(at 173.99 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 173.99 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zero Ohm Resistor, Jumper, 0603 [1608Metric], Thick Film, 100 mW, 2 A, Surface Mount"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "CRCW06030000ZSTB"
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25165"
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97cd0a4c-f90a-4433-9dbe-a752c403585f")
+		)
+		(pin "1"
+			(uuid "9ddb7066-b48e-4f95-bced-d712df425515")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4770,6 +4966,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "-"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "8c091f18-e218-4f8b-8576-86c7c0eee0f8")
 		)
@@ -4820,6 +5025,86 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99f35bda-b237-4e56-a21e-b165d8f079bc")
+		(property "Reference" "R8"
+			(at 180.34 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12"
+			(at 180.34 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Thick Film 0603 12 Ohm 1% 0.25W(1/4W) ±100ppm/C Pad SMD T/R Automotive AEC-Q200"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "ERJPA3F12R0V"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d0bf39c-04fa-414c-b16f-88609da816ae")
+		)
+		(pin "1"
+			(uuid "29be61bc-8137-4763-9d9f-8e0aa8649141")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5029,6 +5314,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "-"
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5bd6fc-2cde-4a7d-af3f-427ef18c614a")
 		)
@@ -5112,6 +5406,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "-"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1fb13051-681c-42f5-b7ff-cca0a71ff356")
 		)
@@ -5129,6 +5432,76 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc85e1d-8d35-477d-ba19-449056260478")
+		(property "Reference" "#PWR035"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fdfc1e-2da0-4a5b-bba7-6efa3f48d20e")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5187,6 +5560,15 @@
 			)
 		)
 		(property "Partno" "SD107WS-7-F"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C124210"
 			(at 182.88 73.66 0)
 			(effects
 				(font
@@ -5418,6 +5800,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15785"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2533bb3-7055-4332-a31e-4ccafc0c52a0")
 		)
@@ -5432,6 +5823,97 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3a982cd-5802-42f6-91b9-c84b1f8c1dd5")
+		(property "Reference" "C32"
+			(at 99.314 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.314 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.0252 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10%"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partno" "C0402C104K4RECAUTO "
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e708bc-7f12-4971-9fd5-2a86c8b228be")
+		)
+		(pin "2"
+			(uuid "9c0db7a9-68c8-492e-915c-968cd7bdc77d")
+		)
+		(instances
+			(project "mdriver_hw_power"
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5500,6 +5982,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "CL10A225KA8NNNC"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a85c29a-7ad3-4001-9858-512dc4bebcaf")
 		)
@@ -5514,86 +6005,6 @@
 				)
 				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fefe9ef7-0778-4289-8172-6caecbcfd91a")
-		(property "Reference" "R8"
-			(at 180.34 110.236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3"
-			(at 180.34 112.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 180.34 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±1% ±100ppm/℃ 3.3Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Partno" "CRCW06033R30FKEA"
-			(at 180.34 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21a3f119-5747-4184-be4c-4c28dbe7ba84")
-		)
-		(pin "1"
-			(uuid "b197c37a-0bd6-4289-a38d-41c1035ba613")
-		)
-		(instances
-			(project "mdriver_hw_power"
-				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/10c349fc-291d-4b82-8041-7d7ad3cd8544"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/b0a218b5-3684-447f-8dec-1dd61a8887f1/131cf519-5aef-4453-a362-b9f7f152aa7a"
-					(reference "R16")
 					(unit 1)
 				)
 			)
